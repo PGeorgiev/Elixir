@@ -1,0 +1,293 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body, h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header:before,
+header:after,
+.work-together:before,
+.work-together:after,
+footer:before,
+footer:after { 
+  content: "";
+  height: 100%;
+}
+
+body {
+  font: 13px 'Myriad Pro';
+}
+
+.logo-and-navigation:after,
+.work-better > div:after,
+footer:after  {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  zoom: 1;
+}
+
+nav {
+  font: 13px 'Ubuntu';
+  float: right;
+}
+
+main {
+  text-align: center;
+}
+
+nav a:hover,
+.say-something a:hover {
+  color: #57EFFF;
+}
+
+
+#wrapper > header {
+  position: relative;
+  color: #fff;
+  font: 20px 'Ubuntu';
+  padding: 20px;
+  padding-top: 0;
+}
+
+
+#wrapper > header:before {
+  background: #514c84;
+  background: -webkit-linear-gradient(bottom left, #514c84 0%, #4ba099 100%);
+  background: -o-linear-gradient(bottom left, #514c84 0%, #4ba099 100%);
+  background: linear-gradient(to top right, #514c84 0%, #4ba099 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#514c84', endColorstr='#4ba099',GradientType=1 ); 
+  position: absolute;
+  width: 100vw; 
+  left: calc(-50vw + 550px);
+  z-index: -1;
+} 
+
+#wrapper > header h4 {
+  font-weight: 300;
+  float: left;
+  margin: 13px;
+}
+
+.logo-and-navigation {
+  border-bottom: 1px solid #607EA9;
+}
+ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+
+li > a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo-and-slogan {
+  text-align: center;
+}
+
+.logo-and-slogan h1 {
+  color: #57EFFF;
+  margin-top: 20px;
+  font: 54px 'Ubuntu';
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.logo-and-slogan > header > p {
+  font: 16px 'Ubuntu';
+  margin-top: -10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logo-and-slogan > p.slogan {
+  font: 60px 'Ubuntu';
+  margin-top: 40px;
+}
+
+.get-started,
+.say-something {
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.get-started {
+  margin-top: 100px;
+}
+
+.get-started a {
+  border: 2px solid #fff;
+  padding: 15px 25px;
+  color: #fff;
+  text-decoration: none;
+  font: 24px 'Ubuntu';
+}
+
+.say-something a {
+  color: #fff;
+  font: 16px 'Myriad Pro';
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #98ACC8;
+}
+
+.say-something a:hover {
+  border-bottom-color: #57EFFF;
+}
+
+
+
+
+header > h3 {
+  font: 28px 'Ubuntu';
+  text-transform: uppercase;
+  color: #6C7982;
+  letter-spacing: 2px;
+  margin: 25px 0;
+}
+
+header > h5,
+h5 {
+  font: 20px 'Ubuntu';
+  margin: 15px 0;
+}
+
+div.logo {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+ /*background: url(../img/sprite.png) -10px 0;*/
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.services > div {
+  width: 295px; 
+  color: #6C7982;
+}
+
+.services > div > p {
+  margin-bottom: 15px;
+}
+
+.services > div > a {
+  color: #57EFFF; 
+  text-decoration: none;
+}
+
+.options > header > .logo {
+  background: url(../img/sprite.png) -10px 0;
+}
+
+.interfaces > header > .logo {
+  background: url(../img/sprite.png) 135px 0;
+}
+
+.documentation > header > .logo {
+  background: url(../img/sprite.png) 305px 0;
+}
+
+.work-together {
+  position: relative;
+  height: 60px;
+  margin-top: 40px;
+  color: #fff;
+  font: 20px 'Ubuntu';
+  text-transform: uppercase;
+}
+
+.work-together:before {
+  position: absolute;
+  width: 100vw;
+  left: calc(-50vw + 550px);
+  z-index: -1;
+  background: #FF7978;
+}
+
+.work-together > p{
+  line-height: 60px;
+  letter-spacing: 2px;
+}
+
+.work-better > div {
+  width: 480px;
+  display: inline-block;
+  background: #F7F8FA;
+  margin: 34px;
+  color: #6C7982;
+}
+
+.work-better > div > img {
+  float: left;
+  margin-right: 10px;
+}
+
+.work-better > div > p {
+  text-align: left;
+  padding: 10px;
+}
+
+.client-feedback p {
+  font: 16px 'Myriad Pro';
+  color: #6C7982;
+  font-weight: bold;
+  width: 730px;
+  margin: 15 auto;
+}
+
+.client-feedback a {
+  color: #57EFFF;
+}
+
+footer {
+  position: relative;
+}
+
+footer:before {
+  position: absolute;
+  width: 100vw;
+  left: calc(-50vw + 541px);
+  z-index: -1;
+  background: #282E3C;
+}
+
+footer {
+  height: 50px;
+  margin: 0;
+  margin-top: 20px;
+  color: #5D7786;
+  font: 12px 'Myriad Pro';
+}
+
+.copy {
+  float: right;
+}
+
+.design {
+  float: left;
+}
+
+.copy,
+.design {
+  line-height: 50px;
+  padding: 0 20px;
+}
